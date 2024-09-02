@@ -46,8 +46,6 @@ h6 {
   text-align: center;
   padding: 20px;
   border-bottom: 5px solid #00796b; /* Slightly lighter teal border */
-  margin: 0 calc(min(28rem - 1.5rem - 50vw, 0px));
-  margin-top: -3rem;
 }
 
 .hero-title {

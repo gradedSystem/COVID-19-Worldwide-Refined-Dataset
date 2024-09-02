@@ -12,7 +12,7 @@ datapackage:
     title: COVID-19 Worldwide Refined Dataset
     description: This is the main dataset which provides a comprehensive and refined collection of COVID-19 information, sourced from RapidAPI and curated to offer valuable insights. The data is updated with the most recent information available, ensuring that you have access to accurate and timely statistics.
     lastModified: 2024-09-02
-    path: alzheimers_disease_patient_data.csv
+    path: covid-dataset.csv
 ---
 
 <div class="hero">
@@ -28,42 +28,77 @@ In many regions, the pandemic's progression has been closely monitored through t
 
 In some areas, the situation has been particularly severe, with high numbers of confirmed cases and related deaths. Meanwhile, other nations have seen encouraging recovery rates, highlighting the varied impact of the virus across different regions.
 
-### COVID-19 Data Visualization
+# COVID-19 Data Visualizations
 
-Below are some visualizations that help us understand the global impact of COVID-19:
+## Total COVID-19 Confirmed Cases by Country (Top 10)
 
-### Total COVID-19 Confirmed Cases by Country (Top 10)
+This chart illustrates the **total number of confirmed COVID-19 cases** across the top 10 countries. It reflects the ongoing global impact of the pandemic and highlights the countries with the highest case numbers.
 
 <PlotlyLineChart
   data={{
     url: 'top_10_confirmed.csv'
   }}
-  title="Total COVID-19 Confirmed Cases by Country Top 10"
+  title="Total COVID-19 Confirmed Cases by Country (Top 10)"
   xAxis="country"
   yAxis="confirmed"
 />
 
-### COVID-19 Recoveries by Country (Top 10)
+### Key Insights
+- **USA**: Highest number of confirmed cases globally with over **111 million**.
+- **India**: Second highest with approximately **45 million** cases.
+- **France**: Significant numbers with around **40 million** confirmed cases.
+
+---
+
+## COVID-19 Recoveries by Country (Top 10)
+
+This chart shows the **total number of COVID-19 recoveries** in the top 10 countries. Understanding recoveries is crucial for assessing the effectiveness of public health measures and interventions.
 
 <PlotlyLineChart
   data={{
     url: 'top_10_recovered.csv'
   }}
-  title="COVID-19 Recoveries by Country Top 10"
+  title="COVID-19 Recoveries by Country (Top 10)"
   xAxis="country"
   yAxis="recovered"
 />
 
-### COVID-19 Critical Cases by Country (Top 10)
+### Key Insights
+- **USA**: Leads in recoveries, reflecting the high number of confirmed cases.
+- **France**: Close behind, showing a substantial number of recoveries relative to confirmed cases.
+- **Brazil**: Also shows a high recovery rate.
+
+---
+
+## COVID-19 Critical Cases by Country (Top 10)
+
+This chart displays the **number of critical COVID-19 cases** in the top 10 countries. Critical cases represent severe symptoms requiring advanced medical care, highlighting the strain on healthcare systems.
 
 <PlotlyLineChart
   data={{
     url: 'top_10_critical.csv'
   }}
-  title="COVID-19 Critical Cases by Country Top 10"
+  title="COVID-19 Critical Cases by Country (Top 10)"
   xAxis="country"
   yAxis="critical"
 />
+
+### Key Insights
+- **USA**: Highest number of critical cases, indicating a significant impact on healthcare resources.
+- **Colombia**: Notable for having a high number of critical cases relative to its total cases.
+- **Spain**: Shows a substantial number of critical cases, reflecting healthcare challenges.
+
+---
+
+## Summary
+
+### Data Overview
+- **Confirmed Cases**: Provides an overview of the total number of COVID-19 cases.
+- **Recoveries**: Indicates the number of people who have successfully recovered from the virus.
+- **Critical Cases**: Highlights the number of severe cases requiring intensive medical care.
+
+This overview helps to contextualize the charts, illustrating the global impact of COVID-19 in terms of confirmed cases, recoveries, and critical cases. The visualizations offer a snapshot of the pandemic's severity and the progress made in managing it.
+
 
 ### The Human Toll
 

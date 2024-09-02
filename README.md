@@ -3,8 +3,8 @@ datapackage:
   title: COVID-19 Worldwide Refined Dataset
   created: 2024-09-02
   updated: 2024-09-02
-  size: 20.17 kB
-  format : csv
+  bytes: 20653
+  format: csv
   sources:
   - path: https://www.kaggle.com/datasets/vanka2003/covid-19-worldwide-refined-dataset
     title: COVID-19 Worldwide Refined Dataset

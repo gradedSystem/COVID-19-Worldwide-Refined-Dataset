@@ -15,6 +15,8 @@ datapackage:
     path: alzheimers_disease_patient_data.csv
 ---
 
+![[healthcare-workers.jpg]]
+
 <div class="hero">
     <h1 class="hero-title">A Glimpse into the Global COVID-19 Impact 🌍</h1>
     <p class="hero-description">Explore how COVID-19 has affected countries around the world. Dive into the data to see the spread, recovery, and critical cases globally.</p>

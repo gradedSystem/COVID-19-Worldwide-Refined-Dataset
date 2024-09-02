@@ -20,33 +20,31 @@ h3, h6 {
     color: #ed9e0c !important;
 }
 
-...
-
 .hero {
-  background-color: #fff;
+  background-color: #508484;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #ed9e0c;
+  color: #fff;
   padding: 0 36px;
 }
 
 .hero-title {
   font-size: 4rem;
-    color: #ed9e0c !important;
-    margin-bottom: 0px;
+  color: #E35AA6 !important;
+  margin-bottom: 0;
 }
 
 .hero-description {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 30px;
 }
 
 .hero-button {
-  background-color: #d4e4ff;
+  background-color: #fff;
   color: #333;
   padding: 10px 20px;
   border-radius: 5px;
@@ -56,26 +54,7 @@ h3, h6 {
 }
 
 .hero-button:hover {
-  background-color: #d4e4ff;
-  color: #ebdcf7;
+  background-color: #D679AC;
+  color: #fff;
 }
 
-.middle-button-container {
-  text-align: center;
-  margin: 30px 0; 
-        }
-
-.middle-button {
-  background-color: #d4e4ff;
-  color: #333;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
-        }
-
-.middle-button:hover {
-  background-color: #ed9e0c;
-  color: #333;
-        }

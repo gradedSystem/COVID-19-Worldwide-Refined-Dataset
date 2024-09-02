@@ -1,20 +1,42 @@
 /* General Body Styles */
 .bg-background {
-  background: #004d40 !important;
+  background: #f5f5f5 !important;
 }
 
 /* Change heading fonts and colors */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Inter", sans-serif !important; /* Using 'Inter' for a modern look */
   font-weight: bold !important;
 }
 
-h1, h4, h2, h5, h3, h6 {
-  color: #ed9e0c !important;
+/* Specific Heading Styles with COVID Vibes */
+h1 {
+  color: #d32f2f !important; /* Vibrant red for impact */
+}
+
+h2 {
+  color: #c2185b !important; /* Deep pink for a striking effect */
+}
+
+h3 {
+  color: #1976d2 !important; /* Bright blue for a cool tone */
+}
+
+h4 {
+  color: #388e3c !important; /* Strong green for a hopeful feeling */
+}
+
+h5 {
+  color: #fbc02d !important; /* Bright yellow for attention */
+}
+
+h6 {
+  color: #0288d1 !important; /* Medium blue for consistency */
 }
 
 /* Hero Section Styles */
 .hero {
+  background-color: #004d40; /* Dark teal color for COVID vibes */
   color: #ffffff;
   height: 500px;
   display: flex;
@@ -24,6 +46,8 @@ h1, h4, h2, h5, h3, h6 {
   text-align: center;
   padding: 20px;
   border-bottom: 5px solid #00796b; /* Slightly lighter teal border */
+  margin: 0 calc(min(28rem - 1.5rem - 50vw, 0px));
+  margin-top: -3rem;
 }
 
 .hero-title {

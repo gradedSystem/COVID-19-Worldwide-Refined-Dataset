@@ -25,11 +25,11 @@ In some areas, the situation has been particularly severe, with high numbers of 
 
 The bar chart below provides a visual representation of the total COVID-19 cases reported by different countries. It highlights how the pandemic has unfolded across the globe, giving us a clearer understanding of its widespread impact.
 
-<PlotlyBarChart
+<PlotlyLineChart
   data={{
-    url: 'covid_dataset.csv'
+    url: 'top_10_confirmed.csv'
   }}
-  title="Total COVID-19 Cases by Country"
+  title="Total COVID-19 Confirmed Cases by Country Top 10"
   xAxis="country"
   yAxis="confirmed"
 />
@@ -38,12 +38,22 @@ Despite these challenges, countries have also shown resilience, with many report
 
 <PlotlyLineChart
   data={{
-    url: 'covid_dataset.csv'
+    url: 'top_10_recovered.csv'
   }}
-  title="COVID-19 Recoveries by Country"
+  title="COVID-19 Recoveries by Country Top 10"
   xAxis="country"
   yAxis="recovered"
 />
+
+<PlotlyLineChart
+  data={{
+    url: 'top_10_critical.csv'
+  }}
+  title="COVID-19 Critical Cases by Country Top 10"
+  xAxis="country"
+  yAxis="critical"
+/>
+
 
 The impact of COVID-19 is not just measured in cases and recoveries but also in the tragic loss of life. The pandemic has claimed lives around the world, leaving a lasting mark on communities. Each statistic represents a person, a family, and a community affected by this global crisis. 
 

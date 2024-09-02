@@ -10,7 +10,7 @@ datapackage:
   resources:
   - name: covid-19-worldwide-refined-dataset
     title: COVID-19 Worldwide Refined Dataset
-    description: This dataset provides a comprehensive and refined collection of COVID-19 information, sourced from RapidAPI and curated to offer valuable insights. The data is updated with the most recent information available, ensuring that you have access to accurate and timely statistics.
+    description: This is the main dataset which provides a comprehensive and refined collection of COVID-19 information, sourced from RapidAPI and curated to offer valuable insights. The data is updated with the most recent information available, ensuring that you have access to accurate and timely statistics.
     lastModified: 2024-09-02
     path: alzheimers_disease_patient_data.csv
 ---
@@ -19,6 +19,45 @@ datapackage:
     <h1 class="hero-title">A Glimpse into the Global COVID-19 Impact 🌍</h1>
     <p class="hero-description">Explore how COVID-19 has affected countries around the world. Dive into the data to see the spread, recovery, and critical cases globally.</p>
 </div>
+
+## Data Catalog
+<Catalog
+  datasets={[
+    {
+      _id: 'dataset-1',
+      metadata: {
+        title: 'Top 10 COVID-19 Confirmed Cases',
+        'details-of-task': 'Dataset containing the top 10 countries with the highest number of confirmed COVID-19 cases.',
+        'link-to-data': 'https://github.com/gradedSystem/COVID-19-Worldwide-Refined-Dataset/blob/main/top_10_confirmed.csv',
+        'task-description': 'Provides insights into the global spread of confirmed cases.',
+      },
+      url_path: 'dataset-1'
+    },
+    {
+      _id: 'dataset-2',
+      metadata: {
+        title: 'Top 10 COVID-19 Recovered Cases',
+        'details-of-task': 'Dataset containing the top 10 countries with the highest number of COVID-19 recoveries.',
+        'link-to-data': 'https://github.com/gradedSystem/COVID-19-Worldwide-Refined-Dataset/blob/main/top_10_recovered.csv',
+        'task-description': 'Shows recovery rates across different countries.',
+      },
+      url_path: 'dataset-2'
+    },
+    {
+      _id: 'dataset-3',
+      metadata: {
+        title: 'Top 10 COVID-19 Critical Cases',
+        'details-of-task': 'Dataset containing the top 10 countries with the highest number of critical COVID-19 cases.',
+        'link-to-data': 'https://github.com/gradedSystem/COVID-19-Worldwide-Refined-Dataset/blob/main/top_10_critical.csv',
+        'task-description': 'Highlights the severity of COVID-19 cases globally.',
+      },
+      url_path: 'dataset-3'
+    }
+  ]}
+  facets={[
+    'title'
+  ]}
+/>
 
 ## Global Impact of COVID-19
 

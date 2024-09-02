@@ -1,18 +1,14 @@
 {
-    "title": "DataHub Cloud Template",
-  "description": "You can use this template repository to bootstrap your own DataHub Cloud site.",
-  "logo": "https://datahub.io/datahub-cube.svg",
+    "title": "Covid-19 Worldwide Refined Dataset",
+  "description": "This dataset offers a well-curated and extensive collection of COVID-19 data, sourced from RapidAPI, designed to provide valuable insights. It is regularly updated with the latest available information, ensuring accurate and timely statistics.",
+  "logo": "eddy-favicon-color.svg",
   "navbarTitle": {
-    "logo": "https://datahub.io/datahub-cube.svg",
-    "text": "DataHub Cloud Site Template"
+    "logo": "eddy-favicon-color.svg",
+    "text": "Covid-19 Worldwide Refined Dataset"
   },
   "author": {
-    "name": "DataHub",
-    "url": "https://datahub.io/",
-    "logo": "https://datahub.io/datahub-cube.svg"
+    "name": "Yedige Ashmet",
+    "url": "https://datahub.io/"
   },
-  "navLinks": [
-    { "href": "/docs", "name": "Docs" }
-  ],
-  "showSidebar": false
+  "showSidebar": true
 }

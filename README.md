@@ -18,24 +18,8 @@ datapackage:
 <div class="hero">
     <h1 class="hero-title">A Glimpse into the Global COVID-19 Impact 🌍</h1>
     <p class="hero-description">Explore how COVID-19 has affected countries around the world. Dive into the data to see the spread, recovery, and critical cases globally.</p>
+    ![[healthcare-workers.jpg]]
 </div>
-
-## Data Catalog
-<Catalog
-  datasets={[
-    {
-      _id: 'map-of-spreaded-covid',
-      metadata: {
-        title: 'Spreading of the Covid-19',
-        'details-of-task': 'Dataset contains the map of the Covid-10 spread',
-        'task-description': 'Provides insights into the global spread of confirmed cases.',
-      },
-      url_path: 'map-of-spreaded-covid'
-    }
-  facets={[
-    'title'
-  ]}
-/>
 
 ## Global Impact of COVID-19
 

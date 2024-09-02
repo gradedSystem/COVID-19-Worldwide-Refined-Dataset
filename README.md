@@ -26,36 +26,14 @@ datapackage:
 <Catalog
   datasets={[
     {
-      _id: 'dataset-1',
+      _id: 'map-of-spreaded-covid',
       metadata: {
-        title: 'Top 10 COVID-19 Confirmed Cases',
-        'details-of-task': 'Dataset containing the top 10 countries with the highest number of confirmed COVID-19 cases.',
-        'link-to-data': 'https://github.com/gradedSystem/COVID-19-Worldwide-Refined-Dataset/blob/main/top_10_confirmed.csv',
+        title: 'Spreading of the Covid-19',
+        'details-of-task': 'Dataset contains the map of the Covid-10 spread',
         'task-description': 'Provides insights into the global spread of confirmed cases.',
       },
-      url_path: 'dataset-1'
-    },
-    {
-      _id: 'dataset-2',
-      metadata: {
-        title: 'Top 10 COVID-19 Recovered Cases',
-        'details-of-task': 'Dataset containing the top 10 countries with the highest number of COVID-19 recoveries.',
-        'link-to-data': 'https://github.com/gradedSystem/COVID-19-Worldwide-Refined-Dataset/blob/main/top_10_recovered.csv',
-        'task-description': 'Shows recovery rates across different countries.',
-      },
-      url_path: 'dataset-2'
-    },
-    {
-      _id: 'dataset-3',
-      metadata: {
-        title: 'Top 10 COVID-19 Critical Cases',
-        'details-of-task': 'Dataset containing the top 10 countries with the highest number of critical COVID-19 cases.',
-        'link-to-data': 'https://github.com/gradedSystem/COVID-19-Worldwide-Refined-Dataset/blob/main/top_10_critical.csv',
-        'task-description': 'Highlights the severity of COVID-19 cases globally.',
-      },
-      url_path: 'dataset-3'
+      url_path: 'map-of-spreaded-covid'
     }
-  ]}
   facets={[
     'title'
   ]}

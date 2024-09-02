@@ -30,8 +30,8 @@ The bar chart below provides a visual representation of the total COVID-19 cases
     url: 'covid_dataset.csv'
   }}
   title="Total COVID-19 Cases by Country"
-  xAxis="Country"
-  yAxis="Confirmed Cases"
+  xAxis="country"
+  yAxis="confirmed"
 />
 
 Despite these challenges, countries have also shown resilience, with many reporting significant numbers of recoveries. The line chart below illustrates the recovery trends across various countries, showcasing the efforts made to overcome the pandemic.
@@ -41,8 +41,8 @@ Despite these challenges, countries have also shown resilience, with many report
     url: 'covid_dataset.csv'
   }}
   title="COVID-19 Recoveries by Country"
-  xAxis="Country"
-  yAxis="Recovered Cases"
+  xAxis="country"
+  yAxis="recovered"
 />
 
 The impact of COVID-19 is not just measured in cases and recoveries but also in the tragic loss of life. The pandemic has claimed lives around the world, leaving a lasting mark on communities. Each statistic represents a person, a family, and a community affected by this global crisis. 

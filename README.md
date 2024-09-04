@@ -35,6 +35,8 @@ In some areas, the situation has been particularly severe, with high numbers of 
 
 This chart illustrates the **total number of confirmed COVID-19 cases** across the top 10 countries. It reflects the ongoing global impact of the pandemic and highlights the countries with the highest case numbers.
 
+![[healthcare-workers.jpg]]
+
 <PlotlyLineChart
   data={{
     url: 'top_10_confirmed.csv'
